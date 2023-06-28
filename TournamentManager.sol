@@ -4,7 +4,7 @@ pragma solidity ^0.8.9;
 import "@openzeppelin/contracts/access/Ownable.sol";
 import "contracts/Moderator.sol";
 
-contract FUEBmonTournamentHandler is Ownable, Moderator {
+contract TournamentHandler is Ownable, Moderator {
 
     struct winningRewards{
         uint256 firstPlace;
